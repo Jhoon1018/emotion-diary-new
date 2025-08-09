@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/emotion-diary-new/static/css/main.bd9eb6d1.css",
+    "main.js": "/emotion-diary-new/static/js/main.8c1695e6.js",
+    "static/js/453.69223ee4.chunk.js": "/emotion-diary-new/static/js/453.69223ee4.chunk.js",
+    "static/media/emotion-guide.jpg": "/emotion-diary-new/static/media/emotion-guide.9bf89df180041e62c2b9.jpg",
+    "index.html": "/emotion-diary-new/index.html",
+    "main.bd9eb6d1.css.map": "/emotion-diary-new/static/css/main.bd9eb6d1.css.map",
+    "main.8c1695e6.js.map": "/emotion-diary-new/static/js/main.8c1695e6.js.map",
+    "453.69223ee4.chunk.js.map": "/emotion-diary-new/static/js/453.69223ee4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd9eb6d1.css",
+    "static/js/main.8c1695e6.js"
+  ]
+}

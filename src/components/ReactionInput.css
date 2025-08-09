@@ -1,0 +1,51 @@
+.reaction-input {
+    padding: 2rem;
+    background: linear-gradient(to bottom, #f2faff, #ffffff);
+    min-height: 100vh;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+  
+  .context {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 1rem;
+  }
+  
+  .examples {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .examples button {
+    padding: 0.5rem 1rem;
+    background: #f3f3f3;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  textarea {
+    width: 80%;
+    height: 120px;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    resize: none;
+    margin-bottom: 1rem;
+  }
+  
+  .next-button {
+    padding: 0.8rem 1.5rem;
+    background-color: #87cefa;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+
+

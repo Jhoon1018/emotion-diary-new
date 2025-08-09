@@ -1,0 +1,51 @@
+.situation-input {
+    padding: 2rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .examples {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .examples button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #bbb;
+    background: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  textarea {
+    width: 80%;
+    height: 120px;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    resize: none;
+  }
+  
+  .next-button {
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #87cefa;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .back-button {
+  margin-top: 1rem;
+  background-color: #cccccc;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}

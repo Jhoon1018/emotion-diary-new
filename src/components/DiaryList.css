@@ -1,0 +1,100 @@
+.diary-list {
+  padding: 2rem;
+  font-family: 'Noto Sans KR', sans-serif;
+  background: linear-gradient(to bottom, #fdfcfb, #ffffff);
+  min-height: 100vh;
+}
+
+.diary-list h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.diary-card {
+  background-color: #f0f8ff;
+  border: 1px solid #c0e0ff;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(173, 216, 230, 0.3);
+}
+
+.date {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.button-group {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.button-group button {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.button-group button:first-child {
+  background-color: #ffb3b3;
+  color: #fff;
+}
+
+.button-group button:last-child {
+  background-color: #87cefa;
+  color: #fff;
+}
+
+.top-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.write-button {
+  background-color: #98ddca;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+ .back-button {
+  margin-top: 1rem;
+  background-color: #cccccc;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.diary-field {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.diary-field label {
+  min-width: 60px;
+  font-weight: bold;
+  margin-top: 0.3rem;
+}
+
+.diary-field textarea,
+.diary-field input,
+.diary-field select {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}

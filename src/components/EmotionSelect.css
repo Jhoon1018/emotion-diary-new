@@ -1,0 +1,99 @@
+.emotion-select {
+    position: relative; /* 버튼을 absolute 위치로 제어하기 위한 기준점 */
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(to bottom, #cce6ff, #ffffff);
+    min-height: 100vh;
+    font-family: 'Noto Sans KR', sans-serif;
+
+  }
+  
+  .emotion-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+  }
+  
+  .emotion-buttons button {
+    padding: 1rem 2rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .next-button {
+    padding: 0.8rem 1.6rem;
+    font-size: 1.1rem;
+    background-color: #87cefa;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+.list-button {
+  position: absolute; /* 화면 위에 겹치도록 설정 */
+  top: 20px;
+  right: 20px;
+  background-color: #87cefa;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+ .back-button {
+  margin-top: 1rem;
+  background-color: #cccccc;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.guide-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #dfefff;
+  border: 1px solid #9cc6ff;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  max-width: 90%;
+  max-height: 90%;
+  overflow-y: auto; /* ✅ 스크롤 가능하게 설정 */
+  box-sizing: border-box;
+}
+
+.modal-content img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

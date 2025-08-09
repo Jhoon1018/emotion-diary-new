@@ -1,0 +1,48 @@
+.reflection-input {
+    padding: 2rem;
+    background: linear-gradient(to bottom, #fef9f5, #ffffff);
+    min-height: 100vh;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+  
+  .context {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    color: #444;
+  }
+  
+  textarea {
+    width: 80%;
+    height: 140px;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    resize: none;
+    margin-bottom: 1rem;
+  }
+  
+  .submit-button {
+    padding: 0.8rem 1.5rem;
+    background-color: #87cefa;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+ .back-button {
+  margin-top: 1rem;
+  background-color: #cccccc;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}

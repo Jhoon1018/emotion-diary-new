@@ -8,8 +8,6 @@
 ## ✨ 주요 기능
 - 감정/상황/반응 입력 및 리스트 보기
 - 차트 통계 (react-chartjs-2, chart.js)
-- 워드클라우드 (chartjs-chart-wordcloud)
-- 애니메이션 (framer-motion)
 - 로컬 스토리지 저장(예: 장바구니/임시 데이터)
 
 ## 🛠 기술 스택
